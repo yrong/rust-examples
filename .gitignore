@@ -1,0 +1,13 @@
+*~
+/build/
+Cargo.lock
+/doc/
+/inifile/target/
+/inifile/src/data/save_test.ini
+/inifile/src/data/write_test.ini
+/lib/
+/lib-stamps/
+/nbproject/private/
+*.o
+/target/
+.idea
