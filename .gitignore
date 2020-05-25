@@ -11,3 +11,6 @@ Cargo.lock
 *.o
 /target/
 .idea
+/AFTER.txt
+/BEFORE.txt
+/dry

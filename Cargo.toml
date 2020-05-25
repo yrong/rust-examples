@@ -3,6 +3,7 @@
 name = "rust-examples"
 version = "0.0.1"
 authors = ["Eliovir <eliovir@gmail.com>"]
+default-run = "lang-pointers"
 
 [dependencies.inifile]
 path = "inifile"
@@ -36,7 +37,26 @@ name = "linked_list"
 path = "linked_list.rs"
 
 [[bin]]
-name = 'asm'
-path = "asm.rs"
+name = 'green-thread-0'
+path = "green-thread-0.rs"
 
+[[bin]]
+name = 'green-thread-1'
+path = "green-thread-1.rs"
+
+[[bin]]
+name = 'lang-pointers'
+path = "lang-pointers.rs"
+
+[[bin]]
+name = 'design_pattern-decorator'
+path = "design_pattern-decorator.rs"
+
+[[bin]]
+name = 'tcp'
+path = "tcp.rs"
+
+[[test]]
+name = 'dry'
+path = 'dry.rs'
 
