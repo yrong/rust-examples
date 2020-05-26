@@ -56,6 +56,14 @@ path = "design_pattern-decorator.rs"
 name = 'tcp'
 path = "tcp.rs"
 
+[[bin]]
+name = 'green-thread'
+path = "green-thread-2.rs"
+
+[[bin]]
+name = 'binarytree'
+path = "binarytree.rs"
+
 [[test]]
 name = 'dry'
 path = 'dry.rs'

@@ -1,12 +1,3 @@
-rust-examples [![Open HUB statistics](https://www.openhub.net/p/rust-examples/widgets/project_thin_badge.gif)](https://www.openhub.net/p/rust-examples/)
-=============
-
-[![Build Status](http://travis-ci.org/eliovir/rust-examples.png?branch=master)](https://travis-ci.org/eliovir/rust-examples)
-
-[Rust-examples](https://github.com/eliovir/rust-examples) is a repository to
-gather example codes from tutorial and other documentations of
-[Rust](http://www.rust-lang.org/) into files, ready to compile.
-
 Examples are tested with version 1.13.0.
 
 ## Files
