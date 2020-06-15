@@ -11,6 +11,8 @@ path = "inifile"
 [dependencies]
 getopts = "0.2.14"
 rand = "0.3"
+tokio = { version = "0.2", features = ["macros"]}
+warp = "0.2"
 
 [[bin]]
 name = "api-getopts"
@@ -64,7 +66,12 @@ path = "green-thread-2.rs"
 name = 'binarytree'
 path = "binarytree.rs"
 
+[[bin]]
+name = 'chat'
+path = "chat.rs"
+
 [[test]]
 name = 'dry'
 path = 'dry.rs'
+
 
